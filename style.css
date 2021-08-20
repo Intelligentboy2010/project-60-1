@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    
+
 
 
 }
@@ -16,7 +16,8 @@ img {
     padding-top: 100px;
     font-size: 50px;
 }
-#hobby{
+
+#hobby {
     background-color: darkmagenta;
     font-size: 50px;
 }
@@ -24,22 +25,30 @@ img {
 #text {
     font-size: 50px;
     color: aquamarine;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     padding-bottom: 100px;
 }
-#work{
+
+#work {
     font-size: 55px;
     background-color: forestgreen;
     padding-bottom: 100px;
     padding-top: 100px;
     margin-bottom: 100px;
+    
 }
-#inspiration{
-    background-color:coral;
+
+#inspiration {
+    background-color: coral;
     font-size: 45px;
-     padding-bottom: 100px;
+    padding-bottom: 100px;
     padding-top: 100px;
     margin-bottom: 100px;
+    
+}
+#contact{
+    background-color: cyan;
+    padding-top: 100px;
 }
 
 .line {
@@ -47,24 +56,26 @@ img {
     background-color: #000;
     width: 200px;
     margin: 8px auto;
-   
+
 }
 
-.menu{
- float: right;
+.menu {
+    float: right;
     top: 10px;
     right: 30px;
     cursor: pointer;
     font-family: monospace;
     list-style: none;
-      display: inline;
+    display: inline;
     color: black;
+    position: fixed;
 }
 
 
 .link {
-    float: left;
-    color:aquamarine;
+    float:left;
+    color:blue;
+    background-color: dodgerblue;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -72,10 +83,10 @@ img {
     font-size: 30px;
 }
 
-.link:hover{
-    background-color:azure;
-}
-img:hover{
-    transform: scale(0.9);
+.link:hover {
+    background-color: azure;
 }
 
+img:hover {
+    transform: scale(0.9);
+}
